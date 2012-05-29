@@ -1,0 +1,28 @@
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+-dontpreverify
+-verbose
+
+-libraryjars libs/j-interop.jar
+-libraryjars libs/j-interopdeps.jar
+-libraryjars libs/jcifs-1.3.17.jar
+-dontwarn javax.servlet.Filter
+-dontwarn javax.servlet.ServletOutputStream
+-dontwarn javax.servlet.ServletRequest
+-dontwarn javax.servlet.ServletResponse
+-dontwarn javax.servlet.FilterChain
+-dontwarn javax.servlet.FilterConfig
+-dontwarn javax.servlet.ServletConfig
+-dontwarn javax.servlet.ServletException
+-dontwarn javax.servlet.http.HttpSession
+-dontwarn javax.servlet.http.HttpServlet
+-dontwarn javax.servlet.http.HttpServletRequest
+-dontwarn javax.servlet.http.HttpServletResponse
+-dontwarn javax.servlet.http.HttpServletRequestWrapper
+-dontwarn jcifs.http.NetworkExplorer
+-dontwarn java.rmi.server.UID
+-overloadaggressively
+-repackageclasses ''
+-allowaccessmodification

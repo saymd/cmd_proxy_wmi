@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.saymd.addon.wmi"
+    android:versionCode="1"
+    android:versionName="0.1" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <service android:name=".WmiProxyService"
+            android:exported="true"
+            ></service>
+    </application>
+
+</manifest>
